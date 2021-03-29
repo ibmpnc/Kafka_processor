@@ -8,7 +8,7 @@ app:
 
 xmlapp:
   topic:
-    example: kafka_xml_bank_account_stream3
+    example: kafka_xml_bank_account_stream6
 
 logging:
   level:

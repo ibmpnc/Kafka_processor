@@ -20,7 +20,7 @@ public class KafkaXMLBankAccount implements Serializable{
 	
 	
 
-
+    private String id;
 	private  String balance;
 	private  String name;
 	private  String address;
@@ -31,6 +31,7 @@ public class KafkaXMLBankAccount implements Serializable{
 	@Override
 	    public String toString() {
 	        return "bank_account{" +
+	        		"id='" + id + '\'' +
 	                "name='" + name + '\'' +
 	                ", address='" + address + '\'' +
 	                "balancd='" + balance+ '\'' +
